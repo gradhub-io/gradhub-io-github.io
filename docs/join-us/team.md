@@ -1,5 +1,5 @@
 ---
-template: overrides/work-with-us/team.html
+template: overrides/team.html
 title: GradHub
 ---
 
