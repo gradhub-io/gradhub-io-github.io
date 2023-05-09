@@ -8,7 +8,7 @@ repo_url: https://github.com/gradhub-io/gradhub-io.github.io
 site_url: https://gradhub.io
 site_description: GradHub™ HomePage
 site_author: GradHub™
-copyright: Copyright &copy; 2023-2023 <a href="https://gradhub.io">GradHub™</a>
+copyright: Copyright &copy; 2023-2023 <a href="https://gradhub.io">GradHub</a>
 
 #===================================================================================#
 # Mkdocs Theme (Material Mkdocs) + Extras
