@@ -99,11 +99,8 @@ extra_css:
 #===================================================================================#
 nav:
   - Home: "index.md"
-
   - Concepts:
     - Index: "concepts/index.md"
-    - Pricing: "concepts/pricing.md"
-
-  - Join Us:
-    - Index: "join-us/index.md"
-    - Team: "join-us/team.md"
+  - Pricing: "pricing.md"
+  - Team: "team.md"
+  - Join Us: "join-us.md"
