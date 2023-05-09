@@ -1,0 +1,109 @@
+# ref link: https://alinex.gitlab.io/env/mkdocs/
+#===================================================================================#
+# Site Information
+#===================================================================================#
+site_name: GradHub™
+repo_name: "gradhub-io/gradhub-io.github.io"
+repo_url: https://github.com/gradhub-io/gradhub-io.github.io
+site_url: https://gradhub.io
+site_description: GradHub™ HomePage
+site_author: GradHub™
+copyright: Copyright &copy; 2023-2023 <a href="https://gradhub.io">GradHub™</a>
+
+#===================================================================================#
+# Mkdocs Theme (Material Mkdocs) + Extras
+#===================================================================================#
+theme:
+  name: material
+  custom_dir: material
+  language: en
+  icon: # https://www.materialpalette.com/icons
+    logo: material/book-open-page-variant
+  favicon: assets/images/logos/favicon.ico
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - header.autohide
+    - content.action.edit
+    - content.code.annotate
+  palette: # https://www.materialpalette.com/colors
+    - scheme: default
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      accent: teal
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+  include_sidebar: true
+
+extra:
+  analytics:
+    provider: google
+    property: G-YHH84725NR
+
+  social:
+    - icon: material/home
+      link: 'https://gradhub.io'
+
+#===================================================================================#
+# Mkdocs Markdown Extentions, Plugins & extras
+#===================================================================================#
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - codehilite
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      permalink: " ¶"
+
+plugins:
+  - search
+
+extra_css:
+    - assets/stylesheets/extra.css
+
+#===================================================================================#
+# Mkdocs Navigation Tree
+#===================================================================================#
+nav:
+  - Home: "index.md"
+
+  - Concepts:
+    - Index: "concepts/index.md"
+    - Pricing: "concepts/pricing.md"
+
+  - Join Us:
+    - Index: "join-us/index.md"
+    - Team: "join-us/team.md"
