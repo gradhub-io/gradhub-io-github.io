@@ -3,8 +3,6 @@
 # Site Information
 #===================================================================================#
 site_name: GradHub™
-repo_name: "gradhub-io/gradhub-io.github.io"
-repo_url: https://github.com/gradhub-io/gradhub-io.github.io
 site_url: https://gradhub.io
 site_description: GradHub™ HomePage
 site_author: GradHub™
@@ -31,7 +29,6 @@ theme:
     - navigation.top
     - navigation.footer
     - header.autohide
-    - content.action.edit
     - content.code.annotate
   palette: # https://www.materialpalette.com/colors
     - scheme: default
