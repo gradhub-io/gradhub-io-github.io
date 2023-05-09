@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://gradhub.io/</loc>
+         <lastmod>2023-05-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://gradhub.io/join-us/</loc>
+         <lastmod>2023-05-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://gradhub.io/pricing/</loc>
+         <lastmod>2023-05-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://gradhub.io/team/</loc>
+         <lastmod>2023-05-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://gradhub.io/concepts/</loc>
+         <lastmod>2023-05-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>

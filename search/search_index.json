@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"join-us/","title":"Join Us","text":""},{"location":"concepts/","title":"Concepts","text":""},{"location":"concepts/#welcome","title":"Welcome!","text":"<p>Welcome to GradHub</p>"}]}
